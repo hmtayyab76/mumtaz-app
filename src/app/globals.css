@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "regular", "Segoe UI", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  box-sizing: border-box;
+  color: #707070;
+  transition: all;
+  transition-delay: 0.5s;
+  position: relative;
+}
+
+.home_bg {
+  background-image: url(../../public/assets/images/home-bg.png);
+}
+
+.round {
+  border-radius: 0px 10px 700px 0px;
+}
+
+.bguses {
+  background-image: url(../../public//assets/images/how-it-works-bg.png);
+  background-position: center;
+}
+
+* {
+  scroll-behavior: smooth !important;
+  box-sizing: border-box;
+}
+
+.bg-img-3 {
+  background-image: url(../../public/assets/images/Mask.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+
+.bg-img-4 {
+  background-image: url(../../public/assets/images/how-it-works-bg.png) !important;
+  background-position: center;
+}
+
+.bg-img-5 {
+  background-image: url(../../public/assets/images/Mask.png);
+  background-position: center;
+}
+
+.download-main {
+  background: transparent linear-gradient(180deg,
+      var(--unnamed-color-5119af) 0%,
+      var(--unnamed-color-2d0c4d) 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #5119af 0%, #2d0c4d 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 30px 30px #2d0c4d08;
+}
+
+.bg-g {
+  background-image: url(../../public/assets/images/home-bg.png);
+}
+
+.bg-img-6 {
+  background-image: url(../../public/assets/images/Mask-Group-1.png);
+  background-position: center;
+}
+
+.bg-img-7 {
+  background-image: url(../../public/assets/images/BG.png);
+  transition: all 0.5s;
+}
+
+.bg-img-grid {
+  background-image: url(../../public/assets/images/Repeat-Grid-1.png);
+  background-position: center !important;
+}
+
+@keyframes ldio-rpinwye8j0b {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ldio-rpinwye8j0b div {
+  position: absolute;
+  animation: ldio-rpinwye8j0b 1s linear infinite;
+  width: 160px;
+  height: 160px;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 #e15b64;
+  transform-origin: 80px 82px;
+}
+
+.loadingio-eclipse {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ldio-rpinwye8j0b {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-rpinwye8j0b div {
+  box-sizing: content-box;
+}
+
+.Invalid {
+  color: red !important;
+}
